@@ -1,0 +1,35 @@
+.card {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  gap: 48px 40px;
+  padding-bottom: 80px;
+}
+
+.card:last-of-type {
+  padding-bottom: 0px;
+}
+
+@media screen and (max-width: 1275px) {
+  .card {
+    grid-template-columns: 440px 1fr;
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .card {
+    grid-template-columns: 340px 1fr;
+    gap: 48px 28px;
+    padding-bottom: 73px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .card {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    padding-bottom: 50px;
+  }
+}
+

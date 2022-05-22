@@ -1,0 +1,10 @@
+.card__text {
+  align-self: start;
+}
+
+@media screen and (max-width: 700px) {
+  .card__text {
+    max-width: 288px;
+    justify-self: center;
+  }
+}

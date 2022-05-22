@@ -1,0 +1,19 @@
+.header {
+  width: calc(100% - 2 * 48px);
+  display: grid;
+  grid-template-columns: 1fr min-content min-content;
+  align-items: end;
+  column-gap: 19px;
+}
+
+@media screen and (max-width: 940px) {
+  .header {
+    width: calc(100% - 2 * 24px);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .header {
+    width: calc(100% - 2 * 16px);
+  }
+}

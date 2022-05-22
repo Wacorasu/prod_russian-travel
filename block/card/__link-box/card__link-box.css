@@ -1,0 +1,10 @@
+.card__link-box {
+  align-self: end;
+}
+
+@media screen and (max-width: 700px) {
+  .card__link-box {
+    min-width: 288px;
+    justify-self: center;
+  }
+}

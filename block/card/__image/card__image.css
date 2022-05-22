@@ -1,0 +1,13 @@
+.card__image {
+  font-size: 0;
+  line-height: 0;
+  width: 100%;
+  object-fit: contain;
+}
+
+/* @media screen and (max-width: 700px) {
+  .card__image {
+    max-width: 352px;
+  }
+}
+ */
